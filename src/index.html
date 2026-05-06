@@ -8,25 +8,27 @@
 
 </head>
 <body>
-<!-- main title -->
+<!-- call out top bar -->
 <h3 class="text-center text-sm py-2 bg-void text-white tracking-widest uppercase">
-  Bespoke furniture and lighting crafted to order
+  Free delivery on all UK orders
 </h3>
 
+<!-- main title -->
 
-<div class="bg-abyss p-4">
- 
+<div class="bg-abyss">
+ <div class="p-1">
   <h1 class="text-5xl font-cormorant text-center mt-4 text-white">
     Meubles & Co.
   </h1>
 
-  <h5 class="text-base font-cormorant text-center mt-1 mb-8 text-white" style="font-style: italic">
+  <h5 class="text-base font-cormorant text-center mt-1 mb-5 text-white" style="font-style: italic">
     Est. 1925 &nbsp;|&nbsp; Kensington, London
   </h5>
+  </div>
 
 <!-- navigation styling -->
 <nav>
-  <ul class="flex flex-row justify-center space-x-4">
+  <ul class="flex flex-row justify-center space-x-4 p-3">
     <li><a href="#" class="text-white hover:text-gold transition-colors duration-300 p-8">HOME</a></li>
     <li><a href="#" class="text-white hover:text-gold transition-colors duration-300 p-8">SEASONAL COLLECTION</a></li>
     <li><a href="#" class="text-white hover:text-gold transition-colors duration-300 p-8">SHOWROOMS</a></li>
@@ -40,17 +42,21 @@
      
 <!-- image -->
 
-<div class="relative h-[600px] w-full bg-cover bg-center" 
+<div class="relative h-[700px] w-full bg-cover bg-center" 
 style="background-image: url('./images/bedding_three.png')">
 
    <!-- dark overlay -->
-  <div class="absolute inset-x-0 bottom-0 h-2/3 bg-linear-to-t from-black to-transparent"></div>
-
-   <!-- text overlay and button -->
-  <div class="absolute bottom-8 left-8 p-8 flex-col gap-4">
-      <h2 class="text-white text-5xl font-cormorant max-w-lg ">
+      <!-- bottom gradients -->
+      <div class="absolute inset-x-0 bottom-0 h-1/2 bg-linear-to-t from-black via-black/30 to-transparent"></div>
+      <!-- gradient from left -->
+      <div class="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-r from-black/50 to-transparent"></div>
+   
+      <!-- text overlay and button -->
+  <div class="absolute bottom-16 left-8 p-8 flex-col gap-4">
+      <h2 class="text-white text-5xl font-cormorant [text-shadow:_2px_2px_12px_rgba(0,0,0,0.9)] max-w-lg ">
         Sustainably sourced. Handcrafted. Timeless.
       </h2>
+      <p class="text-white/70 text-sm tracking-widest uppercase mt-2">Bespoke furniture & lighting</p>
       <button class="mt-10 px-8 py-4 border border-gold text-gold text-xs tracking-[0.2em] uppercase hover:bg-gold hover:text-void transition-all duration-300">
   Explore Collection
 </button>
@@ -59,10 +65,10 @@ style="background-image: url('./images/bedding_three.png')">
 
 </div>
 
-  <!-- intro section -->
+  <!-- quick intro section -->
 
-<div class="bg-void">
-  <p class="text-center text-lg text-white mt-4 max-w-2xl mx-auto">
+<div class=" bg-void">
+  <p class="text-center text-lg text-white max-w-2xl mx-auto tracking-wide py-10 px-4">
     At Meubles & Co., we specialize in bespoke furniture and lighting, crafted to order with the finest materials and exceptional craftsmanship. Our collections are designed to bring timeless elegance and unparalleled quality to your home.
   </p>
 </div>
