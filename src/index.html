@@ -8,7 +8,7 @@
 
 </head>
 <body>
-
+<!-- main title -->
 <h3 class="text-center text-sm py-2 bg-void text-white tracking-widest uppercase">
   Bespoke furniture and lighting crafted to order
 </h3>
@@ -24,6 +24,7 @@
     Est. 1925 &nbsp;|&nbsp; Kensington, London
   </h5>
 
+<!-- navigation styling -->
 <nav>
   <ul class="flex flex-row justify-center space-x-4">
     <li><a href="#" class="text-white hover:text-gold transition-colors duration-300 p-8">HOME</a></li>
@@ -35,10 +36,32 @@
 </nav>
 </div>
 
-<div class="bg-void">
-  <img src="images/bedding_three.png" alt="luxury living room" 
-  class="w-full h-screen object-cover">
+<!-- hero imagery and text -->
+     
+<!-- image -->
 
+<div class="relative h-[600px] w-full bg-cover bg-center" 
+style="background-image: url('./images/bedding_three.png')">
+
+   <!-- dark overlay -->
+  <div class="absolute inset-x-0 bottom-0 h-2/3 bg-linear-to-t from-black to-transparent"></div>
+
+   <!-- text overlay and button -->
+  <div class="absolute bottom-8 left-8 p-8 flex-col gap-4">
+      <h2 class="text-white text-5xl font-cormorant max-w-lg ">
+        Sustainably sourced. Handcrafted. Timeless.
+      </h2>
+      <button class="mt-10 px-8 py-4 border border-gold text-gold text-xs tracking-[0.2em] uppercase hover:bg-gold hover:text-void transition-all duration-300">
+  Explore Collection
+</button>
+  </div>
+  
+
+</div>
+
+  <!-- intro section -->
+
+<div class="bg-void">
   <p class="text-center text-lg text-white mt-4 max-w-2xl mx-auto">
     At Meubles & Co., we specialize in bespoke furniture and lighting, crafted to order with the finest materials and exceptional craftsmanship. Our collections are designed to bring timeless elegance and unparalleled quality to your home.
   </p>
