@@ -6,6 +6,8 @@
   <link href="./output.css" rel="stylesheet">
     <title>Meubles & Co. — Home & Lifestyle</title>
 
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/logo_icon.png">
+
 </head>
 <body>
 <!-- call out top bar -->
@@ -15,7 +17,7 @@
 
 <!-- main title -->
 
-<div class="bg-abyss">
+<div class="bg-abyss p-2">
  <div class="p-1">
   <h1 class="text-5xl font-cormorant text-center mt-4 text-white">
     Meubles & Co.
@@ -28,12 +30,12 @@
 
 <!-- navigation styling -->
 <nav>
-  <ul class="flex flex-row justify-center space-x-4 p-3">
-    <li><a href="#" class="text-white hover:text-gold transition-colors duration-300 p-8">HOME</a></li>
-    <li><a href="#" class="text-white hover:text-gold transition-colors duration-300 p-8">SEASONAL COLLECTION</a></li>
-    <li><a href="#" class="text-white hover:text-gold transition-colors duration-300 p-8">SHOWROOMS</a></li>
-    <li><a href="#" class="text-white hover:text-gold transition-colors duration-300 p-8">ABOUT US</a></li>
-    <li><a href="#" class="text-white hover:text-gold transition-colors duration-300 p-8">CONTACT</a></li>
+  <ul class="flex flex-row justify-center space-x-24 p-3">
+    <li><a href="#" class="text-white hover:text-gold transition-colors duration-300 border-b-2 border-transparent hover:border-gold">HOME</a></li>
+    <li><a href="#" class="text-white hover:text-gold transition-colors duration-300 border-b-2 border-transparent hover:border-gold">SEASONAL COLLECTION</a></li>
+    <li><a href="#" class="text-white hover:text-gold transition-colors duration-300 border-b-2 border-transparent hover:border-gold">SHOWROOMS</a></li>
+    <li><a href="#" class="text-white hover:text-gold transition-colors duration-300 border-b-2 border-transparent hover:border-gold">ABOUT US</a></li>
+    <li><a href="#" class="text-white hover:text-gold transition-colors duration-300 border-b-2 border-transparent hover:border-gold">CONTACT</a></li>
   </ul>
 </nav>
 </div>
@@ -52,12 +54,12 @@ style="background-image: url('./images/bedding_three.png')">
       <div class="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-r from-black/50 to-transparent"></div>
    
       <!-- text overlay and button -->
-  <div class="absolute bottom-16 left-8 p-8 flex-col gap-4">
-      <h2 class="text-white text-5xl font-cormorant [text-shadow:_2px_2px_12px_rgba(0,0,0,0.9)] max-w-lg ">
-        Sustainably sourced. Handcrafted. Timeless.
+  <div class="absolute bottom-30 left-8 p-8 flex-col gap-4">
+      <h2 class="text-white text-6xl font-cormorant [text-shadow:_2px_2px_12px_rgba(0,0,0,0.9)] max-w-xl">
+        Sustainably sourced.<br>Handcrafted. Timeless.
       </h2>
       <p class="text-white/70 text-sm tracking-widest uppercase mt-2">Bespoke furniture & lighting</p>
-      <button class="mt-10 px-8 py-4 border border-gold text-gold text-xs tracking-[0.2em] uppercase hover:bg-gold hover:text-void transition-all duration-300">
+      <button class="mt-16 px-8 py-4 border-2 border-gold text-gold text-sm tracking-[0.2em] uppercase bg-gold/10 hover:bg-gold hover:text-void transition-all duration-300">
   Explore Collection
 </button>
   </div>
@@ -67,16 +69,37 @@ style="background-image: url('./images/bedding_three.png')">
 
   <!-- quick intro section -->
 
-<div class=" bg-void">
-  <p class="text-center text-lg text-white max-w-2xl mx-auto tracking-wide py-10 px-4">
-    At Meubles & Co., we specialize in bespoke furniture and lighting, crafted to order with the finest materials and exceptional craftsmanship. Our collections are designed to bring timeless elegance and unparalleled quality to your home.
+<div class="bg-void pt-5 pb-0 px-8">
+  <p class=" mt-7 text-center text-xl text-white max-w-2xl mx-auto tracking-wide leading-relaxed border-b-2 border-gold/50 pb-8">
+    At Meubles &amp; Co., we believe great design begins with you.
   </p>
+  <p class="text-center text-lg text-white/80 max-w-2xl mx-auto tracking-wide leading-relaxed mt-6">
+    Since our founding in Kensington in 1925, we have dedicated ourselves to creating bespoke furniture and lighting of the highest order — each piece a seamless balance of timeless elegance, exceptional materials, and uncompromising craft.
+  </p>
+  <img src="./images/logo_dark.png" alt="Meubles logo" class=" w-48 h-48 mx-auto mt-4 opacity-100" style="filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.5))">
 </div>
 
+<div class="h-20 bg-linear-to-b from-void to-abyss"></div>
 
 
-  <p class="bg-abyss text-white p-5">
-    This is another sample paragraph with different styles.
-  </p>
+<footer class="bg-abyss text-white text-center py-8">
+  <p class="text-xs tracking-widest uppercase text-white/50 mb-3">Stay in the know</p>
+  <h3 class="font-cormorant text-3xl mb-6">Join the Meubles & Co. circle</h3>
+  <form class="flex justify-center gap-0 max-w-md mx-auto mb-10">
+    <input type="email" placeholder="Your email address" class="flex-1 px-4 py-3 bg-transparent border border-gold/50 text-white text-sm placeholder-white/30 focus:outline-none focus:border-gold">
+    <button type="submit" class="px-6 py-3 bg-gold text-void text-xs tracking-widest uppercase hover:bg-white transition-colors duration-300">Subscribe</button>
+  </form>
+  
+  <div class="relative mt-4 px-6">
+    <p class="text-white/30 text-xs tracking-wide text-center">&copy; 2026 Meubles & Co. All rights reserved.</p>
+    <div class="absolute right-6 top-0 flex gap-4">
+      <button class="text-white/30 text-xs tracking-wide hover:text-white/60 transition-colors duration-300">Terms</button>
+      <button class="text-white/30 text-xs tracking-wide hover:text-white/60 transition-colors duration-300">Privacy Policy</button>
+    </div>
+  </div>
+
+
+</footer>
+
 </body>
 </html>
