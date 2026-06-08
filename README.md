@@ -2,6 +2,9 @@
 # Meubles & Co
 A luxury furniture website built with HTML and Tailwind CSS v4, designed for customers who are interested in high end european styled homeware pieces
 
+## Project walkthrough
+To view the key design decisions and thought process behind this project, please watch the walkthrough video [HERE](https://1drv.ms/v/c/a802b6c94f87f8ff/IQC_pY9Ag6DoQY9bgr3-XrEVAfvB2mc5wxjJWAfmAFRDHMc?e=dMQx46)
+
 ## Built with
 - HTML5
 - Tailwind CSS v4
